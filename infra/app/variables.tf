@@ -10,7 +10,7 @@ variable "aws_region" {
 
 variable "app_name" {
   type    = string
-  default = "portfolio-caique-rezende"
+  default = "caique-rezende-dev"
 }
 
 variable "repository_url" {

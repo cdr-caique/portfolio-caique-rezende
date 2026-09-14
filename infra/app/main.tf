@@ -19,7 +19,7 @@ resource "aws_amplify_app" "portfolio" {
 resource "aws_amplify_branch" "main" {
   app_id            = aws_amplify_app.portfolio.id
   branch_name       = var.branch_name
-  framework         = "React"
+  framework         = "Web"
   stage             = "PRODUCTION"
   enable_auto_build = true
 }
