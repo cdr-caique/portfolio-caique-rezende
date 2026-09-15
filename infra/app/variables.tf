@@ -15,7 +15,7 @@ variable "app_name" {
 
 variable "repository_url" {
   type    = string
-  default = "https://github.com/cdr-caique/caique-rezende-dev"
+  default = "https://github.com/cdr-caique/portfolio-caique-rezende"
 }
 
 variable "branch_name" {
